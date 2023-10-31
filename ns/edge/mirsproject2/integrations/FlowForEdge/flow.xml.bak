@@ -395,8 +395,4 @@
   <COMMENT></COMMENT>
 </MAP>
 </INVOKE>
-
-<INVOKE NAME="wmCustomDBServices" SERVICE="Flows:getPOReport">
-  <COMMENT></COMMENT>
-</INVOKE>
 </FLOW>
