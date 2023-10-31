@@ -231,10 +231,6 @@
 </MAP>
 </INVOKE>
 
-<INVOKE NAME="Utils" SERVICE="pub.utils:generateUUID">
-  <COMMENT></COMMENT>
-</INVOKE>
-
 <INVOKE NAME="Flow" SERVICE="pub.flow:debugLog">
   <COMMENT></COMMENT>
 

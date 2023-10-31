@@ -28,6 +28,10 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.560
+- serviceName: pub.utils:generateUUID
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.560
 packages:
 - name: EdgeMirsProject2
   gitServerName: MirsGit
