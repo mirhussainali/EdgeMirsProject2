@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">mir</value>
-    <value name="lastModifiedDate">1698732050711</value>
+    <value name="lastModifiedDate">1698732068818</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">9c55b43600a2403bb8c3a45c789782fa</value>
       <value name="group">default</value>
@@ -91,6 +91,25 @@
         <null name="mapSet"/>
         <number name="ui_step_index" type="Long">2</number>
         <number name="nodeIndex" type="Long">1</number>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+      </record>
+      <record name="/2" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Flow</value>
+          <value name="groupName">flow</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">debugLog</value>
+          <value name="serviceName">pub.flow:debugLog</value>
+          <value name="transformerSupport">false</value>
+        </record>
+        <number name="ui_step_index" type="Long">3</number>
+        <number name="nodeIndex" type="Long">2</number>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
       </record>
     </record>
   </record>
