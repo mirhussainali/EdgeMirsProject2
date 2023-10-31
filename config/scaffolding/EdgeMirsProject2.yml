@@ -1,10 +1,25 @@
 version: "1.0"
 info:
   model: int-scaffold
+services:
+- serviceName: edge.mirsproject2.integrations:FlowForEdge
+  packages:
+  - name: EdgeMirsProject2
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.560
 packages:
 - name: EdgeMirsProject2
   gitServerName: MirsGit
   gitUrl: https://github.com/mirhussainali/EdgeMirsProject2
   gitUsername: mirhussainali
   gitToken: edge.scaffolding.EdgeMirsProject2.MirsGit.gitToken
+  gitBranch: main
+- name: wmCustomDBServices
+  gitServerName: MirsGit
+  gitUrl: https://github.com/mirhussainali
+  gitUsername: mirhussainali
+  gitToken: edge.scaffolding.wmCustomDBServices.MirsGit.gitToken
   gitBranch: main

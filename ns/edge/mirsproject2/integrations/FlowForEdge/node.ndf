@@ -45,12 +45,11 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">mir</value>
-    <value name="createdDate">1698731614516</value>
-    <value name="lastModifiedDate">1698731614516</value>
+    <value name="lastModifiedBy">mir</value>
+    <value name="lastModifiedDate">1698732050711</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">9c55b43600a2403bb8c3a45c789782fa</value>
-      <null name="group"/>
+      <value name="group">default</value>
       <value name="name">MirsEdgeRT2</value>
     </record>
     <value name="displayName">FlowForEdge</value>
@@ -73,6 +72,25 @@
         <number name="nodeIndex" type="Long">0</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+      </record>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">wmCustomDBServices</value>
+          <value name="groupName">wmCustomDBServices;1.0</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">javautils:multiConcat</value>
+          <value name="serviceName">javautils:multiConcat</value>
+          <value name="displayName">multiConcat</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+        <number name="ui_step_index" type="Long">2</number>
+        <number name="nodeIndex" type="Long">1</number>
       </record>
     </record>
   </record>
