@@ -16,6 +16,18 @@ services:
   packages:
   - name: wmCustomDBServices
     version: "1.0"
+- serviceName: Flows:getPOReport
+  packages:
+  - name: wmCustomDBServices
+    version: "1.0"
+- serviceName: DBServices:getPOList
+  packages:
+  - name: wmCustomDBServices
+    version: "1.0"
+- serviceName: pub.flow:getLastError
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.560
 packages:
 - name: EdgeMirsProject2
   gitServerName: MirsGit
